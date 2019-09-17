@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="learn_day15_ssm:war">
+    <output-path>$PROJECT_DIR$/learn_day15_ssm/target</output-path>
+    <root id="archive" name="learn_day15_ssm.war">
+      <element id="artifact" artifact-name="learn_day15_ssm:war exploded" />
+    </root>
+  </artifact>
+</component>

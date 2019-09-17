@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yang</title>
+
+</head>
+<body>
+    <input id="openBtn" type="button" value="openBtn">
+    <input id="closeBtn" type="button" value="closeBtn">
+    <input type="button" id="back" value="后退">
+    <script>
+        var openBtn = document.getElementById("openBtn");
+        var newW;
+        openBtn.onclick = function () {
+            newW = open("https://www.baidu.com");
+        };
+
+        var closeBtn = document.getElementById("closeBtn");
+        closeBtn.onclick = function () {
+            newW.close();
+        };
+
+        var btn2 = document.getElementById("back");
+        btn2.onclick = function () {
+            // history.back();
+            history.go(-1);
+        };
+
+    </script>
+
+    <!--<script>-->
+        <!--//一次性定时器-->
+        <!--// var id = setTimeout(fun,3000);-->
+        <!--// clearTimeout(id);-->
+        <!--// function fun() {-->
+        <!--//     alert("boom~~~~")-->
+        <!--// }-->
+        <!--//循环定时器-->
+        <!--// var id1 = setInterval(fun,2000);-->
+        <!--// clearInterval(id1);-->
+        <!--// function fun() {-->
+        <!--//     alert("boom~~~~")-->
+        <!--// }-->
+    <!--</script>-->
+</body>
+</html>

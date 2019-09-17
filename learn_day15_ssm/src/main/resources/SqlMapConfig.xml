@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--&lt;!&ndash;引入外部配置文件&ndash;&gt;-->
+    <!--<properties resource="jdbcConfig.properties"></properties>-->
+
+    <!--&lt;!&ndash;配置别名&ndash;&gt;-->
+    <!--<typeAliases>-->
+        <!--<package name="club.ldolin.domain"></package>-->
+    <!--</typeAliases>-->
+
+    <!-- 配置环境 -->
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <!-- 配置连接数据库的4个基本信息 -->
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://127.0.0.1:3306/ssm"/>
+                <property name="username" value="root"/>
+                <property name="password" value="123456"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--指定带有注解的dao接口所在位置,引入映射配置文件-->
+    <mappers>
+        <package name="club.ldolin.dao"></package>  <!--推荐-->
+    </mappers>
+</configuration>

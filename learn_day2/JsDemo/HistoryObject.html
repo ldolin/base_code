@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yang</title>
+</head>
+<body>
+    <input type="button" id="btn" value="获取当前窗口访问历史记录个数">
+    <a href="WindowObject.html">打开/关闭窗口</a>
+    <input type="button" id="forward" value="前进">
+
+    <input type="button" id="go" value="跳转到历史记录指定页面">
+
+</body>
+</html>
+
+<script>
+    var btn = document.getElementById("btn");
+    btn.onclick = function () {
+        var num = history.length;
+        alert(num);
+    };
+    var btn1 = document.getElementById("forward");
+    btn1.onclick = function () {
+        // history.forward();
+        history.go(1);
+    };
+
+</script>

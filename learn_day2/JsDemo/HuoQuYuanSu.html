@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yang</title>
+    
+
+
+</head>
+<body>
+    <!--<img id="light" src="./img/off.gif" onclick="alert("我被点击了");">-->
+    <img id="light" src="./img/off.gif">
+    <!--<h1 id="title">112233</h1>-->
+
+    <!--<script>-->
+        <!--//通过id获取元素对象-->
+        <!--var light =  document.getElementById("light");-->
+        <!--alert("换图片。。。");-->
+        <!--light.src="./img/on.gif";-->
+    <!--</script>-->
+
+    <!--<script>-->
+        <!--var title = document.getElementById("title");-->
+        <!--alert("换内容。。。");-->
+        <!--title.innerHTML="445566";-->
+    <!--</script>-->
+
+    <script>
+        //1.获取图片对象
+        var light =  document.getElementById("light");
+        var flag = false;
+        light.onclick = function () {
+            if(flag){
+                light.src="./img/off.gif";
+                flag=false;
+            }
+            else {
+                light.src="./img/on.gif";
+                flag=true;
+            }
+        }
+    </script>
+</body>
+</html>
+
+

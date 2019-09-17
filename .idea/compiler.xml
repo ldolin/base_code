@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fileuploadserver" />
+        <module name="learn_day10_spring" />
+        <module name="learn_day10_spring01" />
+        <module name="learn_day10_spring_yilaizhuru" />
+        <module name="learn_day11_spring_zhujiekaifa" />
+        <module name="learn_day11_springanli" />
+        <module name="learn_day11_springzhujieanli" />
+        <module name="learn_day12_springAOP" />
+        <module name="learn_day12_zhujieAOP" />
+        <module name="learn_day13_jdbctemplate" />
+        <module name="learn_day13_springtx_anno" />
+        <module name="learn_day13_springtx_anno_withoutxml" />
+        <module name="learn_day13_springtx_xml" />
+        <module name="learn_day14_springmvc_05_interceptor" />
+        <module name="learn_day14_springmvc_exception" />
+        <module name="learn_day14_springmvc_fileupload" />
+        <module name="learn_day14_springmvc_quickstart" />
+        <module name="learn_day14_springmvc_response" />
+        <module name="learn_day15_ssm" />
+        <module name="learn_day9_mybatis" />
+        <module name="learn_day9_mybatis_zhujie" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fileuploadserver" target="1.8" />
+      <module name="learn_day10_spring" target="1.5" />
+      <module name="learn_day10_spring01" target="1.5" />
+      <module name="learn_day10_spring_yilaizhuru" target="1.5" />
+      <module name="learn_day11_spring_zhujiekaifa" target="1.5" />
+      <module name="learn_day11_springanli" target="1.5" />
+      <module name="learn_day11_springzhujieanli" target="1.5" />
+      <module name="learn_day12_springAOP" target="1.5" />
+      <module name="learn_day12_zhujieAOP" target="1.5" />
+      <module name="learn_day13_jdbctemplate" target="1.5" />
+      <module name="learn_day13_springtx_anno" target="1.5" />
+      <module name="learn_day13_springtx_anno_withoutxml" target="1.5" />
+      <module name="learn_day13_springtx_xml" target="1.5" />
+      <module name="learn_day14_springmvc_05_interceptor" target="1.8" />
+      <module name="learn_day14_springmvc_exception" target="1.8" />
+      <module name="learn_day14_springmvc_fileupload" target="1.8" />
+      <module name="learn_day14_springmvc_quickstart" target="1.8" />
+      <module name="learn_day14_springmvc_response" target="1.8" />
+      <module name="learn_day15_ssm" target="1.8" />
+      <module name="learn_day9_mybatis" target="1.5" />
+      <module name="learn_day9_mybatis_zhujie" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

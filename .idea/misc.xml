@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/fileuploadserver" />
+    <file type="web" url="file://$PROJECT_DIR$/learn_day14_springmvc_05_interceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/learn_day14_springmvc_exception" />
+    <file type="web" url="file://$PROJECT_DIR$/learn_day14_springmvc_fileupload" />
+    <file type="web" url="file://$PROJECT_DIR$/learn_day14_springmvc_quickstart" />
+    <file type="web" url="file://$PROJECT_DIR$/learn_day14_springmvc_response" />
+    <file type="web" url="file://$PROJECT_DIR$/learn_day15_ssm" />
+    <file type="web" url="file://$PROJECT_DIR$/travel" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/learn_day9_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day9_mybatis_zhujie/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day10_spring/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day10_spring01/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day10_spring_yilaizhuru/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day11_spring_zhujiekaifa/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day11_springanli/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day11_springzhujieanli/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day12_springAOP/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day12_zhujieAOP/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day13_jdbctemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day13_springtx_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day13_springtx_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day13_springtx_anno_withoutxml/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day14_springmvc_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day14_springmvc_response/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day14_springmvc_fileupload/pom.xml" />
+        <option value="$PROJECT_DIR$/fileuploadserver/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day14_springmvc_exception/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day14_springmvc_05_interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_day15_ssm/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="12" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

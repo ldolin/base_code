@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yang</title>
+    <script>
+        //1.定义基本格式
+        var person = {"name":"杨",age:23,'gender':true};
+        // alert(person);
+
+        var name = person.name;
+        var person1 = person["name"];
+        alert(name);
+        alert(person1);
+
+        //2.嵌套格式 {}->[]
+        var persons = {
+            "persons":[
+                {"name":"杨",age:23,'gender':true},
+                {"name":"杨",age:23,'gender':true},
+                {"name":"杨",age:23,'gender':true}
+                ]
+        };
+        // alert(persons);
+
+        var name1 = persons.persons[2].name;
+        alert(name1);
+
+
+        //3.嵌套格式 []->{}
+        var ps = [
+            {"name":"杨",age:23,'gender':true},
+            {"name":"杨",age:23,'gender':true},
+            {"name":"杨",age:23,'gender':true}
+            ];
+        // alert(ps);
+
+        var name2 = ps[2].name;
+        alert(ps[1].name);
+        alert(name2);
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

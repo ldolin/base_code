@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!--<?xml-stylesheet type='text/css' href='./css/a.css'?>-->
+<users>
+    <user id='1'>
+        <name>杨</name>
+        <age>23</age>
+        <gender>male</gender>
+    </user>
+    <user id='2'>
+        <name>wang</name>
+        <age>24</age>
+        <gender>female</gender>
+        <code>
+            <![CDATA[
+                if(a<b && a>c){}
+            ]]>
+        </code>
+    </user>
+</users>

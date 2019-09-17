@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery与js</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div id="div1">div1....</div>
+    <div id="div2">div2....</div>
+
+    <script>
+        //js方式获取所有名称为div，HTML元素对象
+        var divs = document.getElementsByTagName("div");
+        alert(divs.length); //可当做数组使用
+
+        for (var i = 0; i < divs.length; i++) {
+            // divs[i].innerHTML = "aaa";
+            $(divs[i]).html("ccc");
+        }
+
+        //jquery方式获取所有名称为div，HTML元素对象
+        var $divs = $("div");
+        alert($divs.length); //可当做数组使用
+        // $divs.html("bbb");
+
+        $divs[1].innerHTML = "ddd";
+        $divs.get(2).innerHTML = "eee";
+
+        /*
+        1.jquery对象操作更方便
+        2.jquery对象与js对象方法不通用
+        3.jquery对象与js对象转换方法
+            1.js->jq:$(js对象)
+            2.jq->js:jq对象[索引] 或者 jq对象.get(索引)
+         */
+    </script>
+</body>
+</html>

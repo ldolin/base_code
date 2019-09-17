@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yang</title>
+
+    <style>
+        p{
+            text-align: center;
+        }
+        span{
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <img id="img" src="./img/banner_1.jpg" alt="pic" width="100%">
+
+    <input type="button" id="btn" value="刷新">
+
+    <input type="button" id="tz" value="跳转">
+
+    <p>
+        <span id="time">5</span>秒之后，跳转到首页。。。
+    </p>
+</body>
+</html>
+
+<script>
+    //修改图片src属性
+    var num = 1;
+    function fun() {
+        num++;
+        //判断num是否大于3
+        if(num>3){
+            num=1;
+        }
+        //获取img对象
+        var img = document.getElementById("img");
+        img.src="./img/banner_"+num+".jpg";
+    }
+    //定义计时器
+    setInterval(fun,3000);
+
+    //获取元素
+    var btn = document.getElementById("btn");
+    //绑定单击事件
+    btn.onclick = function () {
+        //刷新页面
+        location.reload();
+    };
+
+    //获取href
+    // var href = location.href;
+    // alert(href)
+    var tz = document.getElementById("tz");
+    tz.onclick = function () {
+        location.href="https://www.baidu.com";
+    };
+
+    var second = 5;
+    //通过id获取span标签
+    var time = document.getElementById("time");
+    //定义一个方法获取span标签，修改span标签体中的内容
+    function showtime() {
+        second--;
+        //判断当second为0时跳转到百度
+        if(second===0){
+            //修改地址栏中的url
+            location.href="https://www.baidu.com";
+        }
+        //修改span标签体中的内容
+        time.innerHTML=second;
+    }
+    //设置计时器，执行function showtime
+    setInterval(showtime,1000);
+
+
+</script>
+
